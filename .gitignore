@@ -1,0 +1,21 @@
+# Deps / build
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Env (nunca commitar .env.local)
+.env
+.env*.local
+.vercel
+
+# Drizzle
+drizzle/*.sql
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
